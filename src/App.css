@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background-color: #ffb6c1; /* cor base suave */
+  color: #4b2c34; /* marrom suave, usada como texto padrão */
+}

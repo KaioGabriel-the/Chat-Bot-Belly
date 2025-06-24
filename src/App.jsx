@@ -1,22 +1,26 @@
-// src/App.jsx
-import { useState } from "react";
-import Login from "./pages/Login/Login";
+import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/home.component';
+import InfoForm from './pages/infoform/infoform.component';
 
 function App() {
-  const [usuarioLogado, setUsuarioLogado] = useState(null);
+  const [babyInfo, setBabyInfo] = useState({ name: "", months: "" });
 
-  const handleLogin = (usuario) => {
-    setUsuarioLogado(usuario);
+  const handleBabyInfoSubmit = (info) => {
+    setBabyInfo(info);
+    console.log("Dados do bebê:", info);
   };
 
   return (
-    <div>
-      {usuarioLogado ? (
-        <h1>Bem-vindo, {usuarioLogado}!</h1>
-      ) : (
-        <Login onLogin={handleLogin} />
-      )}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/info"
+          element={<InfoForm onSubmit={handleBabyInfoSubmit} />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

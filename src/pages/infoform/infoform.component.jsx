@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 import '../infoform/infoform.component.css'
+import { useNavigate } from "react-router-dom";
 
 export default function InfoForm({ onSubmit }) {
   const [name, setName] = useState("");
   const [months, setMonths] = useState("");
+  const navigate = useNavigate();
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit({ name, months });
+    navigate('/menu');
   };
 
   return (
     <form onSubmit={handleSubmit} className="form-baby-info">
+      <h1>Informe os dados do bebê</h1>
       <label>Nome do bebê:</label><br />
       <input
         type="text"

@@ -7,6 +7,7 @@
   align-items: center;
   flex-direction: column;
   padding: 20px;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
 }
 
 .form-baby-info form {
@@ -17,6 +18,12 @@
   max-width: 400px;
   width: 100%;
   text-align: left;
+}
+
+.form-baby-info h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #6b4c59;
 }
 
 .form-baby-info label {

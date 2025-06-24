@@ -1,0 +1,42 @@
+.menu-options {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff0f5; /* rosa claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+.menu-options h1 {
+  font-size: 2rem;
+  color: #6b4c59;
+  margin-bottom: 3vw;
+}
+
+.menu-options .tag {
+  background-color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+}
+
+.menu-options .tag h3 {
+  margin: 0;
+  color: #6b4c59;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.menu-options .tag:hover {
+  background-color: #ffc2d1; /* rosa mais forte no hover */
+  transform: scale(1.04);
+}

@@ -11,7 +11,7 @@ function App() {
 
   const handleBabyInfoSubmit = (info) => {
     setBabyInfo(info);
-    console.log("Dados do bebê:", info);
+    console.log(info);
   };
 
   return (

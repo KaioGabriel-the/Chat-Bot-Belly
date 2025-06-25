@@ -9,7 +9,7 @@ export default function Health({ name, months  }) {
   const [loading, setLoading] = useState(false);
 
   const messagesEndRef = useRef(null);
-  const genAI = new GoogleGenerativeAI("AIzaSyD7-Sg4rTieGCu71D4eF_32g17NAFO7lzY"); // Lembre-se: não exponha isso em produção
+  const genAI = new GoogleGenerativeAI("API_KEY"); // Lembre-se: não exponha isso em produção
 
   // Mensagem inicial automática
   useEffect(() => {

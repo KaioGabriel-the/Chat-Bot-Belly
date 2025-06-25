@@ -14,10 +14,10 @@ export default function Menu(){
             <div className="tag" onClick={() => goTo('/food')}>
                 <h3>Alimentação</h3>
             </div>
-            <div className="tag" onClick={goTo('/behavior')}>
+            <div className="tag" onClick={ () => goTo('/behavior')}>
                 <h3>Comportamentos</h3>
             </div>
-             <div className="tag" onClick={goTo('/health')}>
+             <div className="tag" onClick={ () => goTo('/health')}>
                 <h3>Saúde</h3>
             </div>
             <div className="tag" onClick={goTo('/community')}>

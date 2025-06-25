@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import './food.component.css';
+import "../food/food.component.css";
 
-export default function Food({ name, months  }) {
+export default function Behavior({ name, months  }) {
   const [input, setInput] = useState('');
   const [image, setImage] = useState(null);
   const [messages, setMessages] = useState([]);
@@ -16,7 +16,7 @@ export default function Food({ name, months  }) {
     setMessages([
       {
         from: 'bot',
-        text: `Oi, mamãe querida! 🌸 Eu sou a Belly, sua ajudante amiga. Pode me mandar uma perguntinha ou até uma foto do alimento que você quiser analisar. Estou aqui pertinho para cuidar de você e do seu bebê, sempre que precisar! 💖`,
+        text: `Oi, mamãe querida! 🌸 Eu sou a Belly, sua ajudante amiga. Pode me mandar uma perguntinha para mim que irei lhe ajudar. Estou aqui pertinho para cuidar de você e do seu bebê, sempre que precisar! 💖`,
       },
     ]);
   }, [name, months]);
@@ -65,7 +65,7 @@ export default function Food({ name, months  }) {
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       
       // Adiciona contexto sobre o bebê no prompt
-      const fullPrompt = `Usuário com bebê de ${months} meses chamado ${name}. Pergunta(As perguntas são especificas para o contexto nutricional do bebê. responda com linguagem simples.): ${input}`;
+      const fullPrompt = `Usuário com bebê de ${months} meses chamado ${name}. Pergunta(As perguntas são especificas para o contexto comportamental do bebê. responda com linguagem simples.): ${input}`;
       
       let result;
       if (image) {

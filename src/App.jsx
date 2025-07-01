@@ -5,7 +5,6 @@ import InfoForm from './pages/infoform/infoform.component';
 import Menu from './pages/menu/menu.component';
 import Food from './pages/food/food.component';
 import Behavior from './pages/behavior/behavior.component';
-import Health from './pages/health/health.component';
 
 
 function App() {
@@ -32,9 +31,6 @@ function App() {
         />
         <Route path='/behavior'
           element={<Behavior name={babyInfo.name} months={babyInfo.months} />}
-        />
-        <Route path='/health'
-          element={<Health name={babyInfo.name} months={babyInfo.months} />}
         />
       </Routes>
     </BrowserRouter>

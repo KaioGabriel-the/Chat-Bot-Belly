@@ -17,9 +17,6 @@ export default function Menu(){
             <div className="tag" onClick={ () => goTo('/behavior')}>
                 <h3>Comportamentos</h3>
             </div>
-             <div className="tag" onClick={ () => goTo('/health')}>
-                <h3>Saúde</h3>
-            </div>
             <div className="tag" onClick={goTo('/community')}>
                 <h3>Comunidade</h3>
             </div>

@@ -8,8 +8,9 @@ export default function Behavior({ name, months  }) {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
 
+  const api_key = import.meta.env.VITE_GEMINI_API_KEY;
   const messagesEndRef = useRef(null);
-  const genAI = new GoogleGenerativeAI("API_KEY"); // Lembre-se: não exponha isso em produção
+  const genAI = new GoogleGenerativeAI(api_key); // Lembre-se: não exponha isso em produção
 
   // Mensagem inicial automática
   useEffect(() => {

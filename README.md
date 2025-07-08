@@ -1,12 +1,37 @@
-# React + Vite
+# ***ChatBot: Belly***
+EN: The ChatBot Belly is an application designed to help first-time mothers with questions about their baby's feeding and behavior. </br></br>
+PT-BR: O ChatBot Belly é uma aplicação que busca auxiliar mães de primeira viagem com dúvidas sobre a alimentação e o comportamento do bebê.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> # 🚀 CONCEPT
+> EN: Belly's goal is to assist mothers who have questions about baby food or their baby's behavior. </br>
+> PT-BR: O objetivo da Belly é auxiliar as mães que têm alguma dúvida sobre alimentos para bebês ou sobre o comportamento deles.
 
-Currently, two official plugins are available:
+> # 🔦 TECHNOLOGIES USED
+> * **React:**
+> > * EN: Framework used for the application's front end.
+> > * PT-BR: Framework utilizado para o front-end da aplicação.
+> * **Gemini API:**
+> > * EN: EN: API used to generate dynamic responses.
+> > * PT-BR: API utilizada para gerar respostas dinâmicas.
+> * **Git/GitHub:**
+> > * EN: EN: Used to store the code.
+> > * PT-BR: Utilizados para armazenar o código.
+> * **Vercel**
+> > * EN: Platform used to host the aplication.
+> > * PT-BR: Plataforma utilizada para hospedar a aplicação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> # 💻 [SEE PROJECT](https://chat-bot-belly.vercel.app/)
+> <img src="https://github.com/KaioGabriel-the/Chat-Bot-Belly/blob/fec79b12a5a146641ae99fa65b9d0221e1dce76d/img2.png">
+> <img src="https://github.com/KaioGabriel-the/Chat-Bot-Belly/blob/e416fa4f9fed9b008a8c28aa808a8096b4037220/img3.png">
+> <img src="https://github.com/KaioGabriel-the/Chat-Bot-Belly/blob/e416fa4f9fed9b008a8c28aa808a8096b4037220/img4.png">
+> <img src="https://github.com/KaioGabriel-the/Chat-Bot-Belly/blob/fec79b12a5a146641ae99fa65b9d0221e1dce76d/img.png">
 
-## Expanding the ESLint configuration
+> # 🔗 PROJECT CLONE
+> ``` bash
+> https://github.com/KaioGabriel-the/Chat-Bot-Belly.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> # 📱 CONTACT
+> * **Kaio Gabriel**
+>> [![E-mail](https://img.shields.io/badge/-Email-9B59B6?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](kkaiogabrielk@gmail.com)
+>> [![LinkedIn](https://img.shields.io/badge/linkedin-%239B59B6.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaio-gabriel-de-sousa-carvalho-baa05b313/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+>> [![GitHub](https://img.shields.io/badge/GitHub-9B59B6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KaioGabriel-the)
